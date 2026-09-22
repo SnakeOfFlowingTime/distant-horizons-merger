@@ -1,2 +1,2 @@
 # distant-horizons-merger
-small script to merge two distant horizons (the minecraft mod) databases.
+little thing i made to merge two distant horizons (the minecraft mod) sqlite files, even has a very simple ui.
