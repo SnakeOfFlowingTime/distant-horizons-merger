@@ -1,0 +1,5 @@
+{
+    "_comment": "primary is the main file, the one you use, secondary is the one to be merged with primary, use absolute path",
+    "primary": "",
+    "secondary": ""
+}
