@@ -12,7 +12,7 @@ def databaseMerger(primary, secondary):
 
     cursor.execute(f"ATTACH DATABASE '{secondary}' AS secondary;")
     print("Attached Secondary DB.")
-    submit_button.config(text="Attaached Secondary DB.")
+    submit_button.config(text="Attached Secondary DB.")
     cursor.execute(f"SELECT name FROM secondary.sqlite_master WHERE type='table';")
     tables = [row[0] for row in cursor.fetchall()]
 
